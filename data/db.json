@@ -1,0 +1,141 @@
+{
+  "infos": [
+    {
+      "name": "Kenneth Ekerette",
+      "serialkey": "1234567890",
+      "regNo": "1234567",
+      "dob": "2011-02-01",
+      "result": "Passed",
+      "gpa": "4.32",
+      "class": "SSS 1",
+      "institute": "Kevon Divine Heritage",
+      "year": "2023",
+      "id": "1"
+    },
+    {
+      "name": "Alice Johnson",
+      "serialkey": "0987654321",
+      "regNo": "7654321",
+      "dob": "2010-08-15",
+      "result": "Passed",
+      "gpa": "4.50",
+      "class": "SSS 2",
+      "institute": "Bright Future High School",
+      "year": "2023",
+      "id": "2"
+    },
+    {
+      "name": "Bob Williams",
+      "serialkey": "9876543210",
+      "regNo": "9876543",
+      "dob": "2009-11-20",
+      "result": "Passed",
+      "gpa": "4.20",
+      "class": "SSS 3",
+      "institute": "Excel Academy",
+      "year": "2023",
+      "id": "3"
+    },
+    {
+      "id": "c277",
+      "name": "ann john",
+      "serialKey": "1283728765",
+      "regNo": "27817282",
+      "dob": "11-01-1993",
+      "result": "excellent",
+      "gpa": "4.6",
+      "clas": "jss1",
+      "institute": "jss1",
+      "year": "2023"
+    },
+    {
+      "id": "a8fd",
+      "name": "ann john",
+      "serialKey": "1283728765",
+      "regNo": "27817282",
+      "dob": "11-01-1993",
+      "result": "excellent",
+      "gpa": "4.6",
+      "clas": "jss1",
+      "institute": "jss1",
+      "year": "2023"
+    },
+    {
+      "0": {
+        "subject": "math",
+        "marks": "99%"
+      },
+      "1": {
+        "subject": "english",
+        "marks": "56%",
+        "grade": "jss3"
+      },
+      "2": {
+        "subject": "biology",
+        "marks": "34%",
+        "grade": "sss3"
+      },
+      "3": {
+        "subject": "physics",
+        "marks": "77%",
+        "grade": "jss2"
+      },
+      "4": {
+        "subject": "geography",
+        "marks": "44%",
+        "grade": "sss2"
+      },
+      "id": "6843"
+    },
+    {
+      "id": "a434",
+      "dob": "2024-01-08",
+      "serialKey": "ew",
+      "regNo": "we",
+      "gpa": "we",
+      "year": "2023"
+    },
+    {
+      "id": "9c11",
+      "ename": "ds",
+      "serialKey": "sds",
+      "regNo": "we",
+      "dob": "2024-01-09",
+      "result": "passed",
+      "gpa": "ds",
+      "clas": "jss3",
+      "institute": "jss2",
+      "year": "2024",
+      "subjects": []
+    },
+    {
+      "id": "7796",
+      "ename": "fishken",
+      "serialKey": "123456",
+      "regNo": "we32",
+      "dob": "2024-01-09",
+      "result": "passed",
+      "gpa": "ds",
+      "clas": "jss3",
+      "institute": "jss2",
+      "year": "2024",
+      "subjects": [
+        {
+          "subject": "chemistry",
+          "marks": "34",
+          "grade": "A"
+        },
+        {
+          "subject": "physics",
+          "marks": "54",
+          "grade": "C"
+        },
+        {
+          "subject": "math",
+          "marks": "43",
+          "grade": "D"
+        }
+      ]
+    }
+  ]
+}

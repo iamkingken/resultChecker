@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins';
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar css */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  width: 90%;
+  
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  
+ }
+ .navbar h1 {
+  color: #f1356d;
+ }
+ .navbar .links {
+  margin-left: auto;
+ }
+ .navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+ }
+ .navbar a:hover {
+  color: #f1356d;
+ }
+
+ /*Result input page*/
+
+.result-input-page{
+    width: 90%;
+    max-width: 760px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+.result-input-page h2{
+    width: 100%;
+    text-align: center;
+    margin: 0 0;
+    background: #eee ;
+    padding: 25px 0;
+    font-size: 2.5rem;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+}
+
+.result-input-page form {
+  margin: 2rem 3rem;
+}
+
+.result-input-page label {
+  font-size: 1.3rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: block;
+  text-align: left;
+}
+
+.result-input-page input, .result-input-page textarea, .result-input-page select{
+  width: 100%;
+    padding: 7px 10px;
+    margin: 0 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/* result output page*/
+.result-output-page h2{
+  width: 100%;
+  text-align: center;
+  margin: 0 0;
+  background: #eee ;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  border-bottom: 3px solid rgba(0,0,0,0.1);
+  letter-spacing: .5px;
+}
+.result-output-page{
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+.result-header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem 0rem;
+
+}
+.result-header .box{
+  display: flex;
+  padding: 1rem 1.5rem;
+  width: 25%;
+  font-size: 13px;
+  border: 2px solid #000;
+}
+.result-header label p{
+  display: block;
+  
+  text-align: left;
+  padding: auto;
+  margin: auto;
+}
+.result-header p{
+ 
+  width: 66%;
+}
+.result-header label{
+  width: 38%;
+}
+
+.result-body{
+  display: flexbox;
+  width: 95%;
+  margin: 2rem;
+ 
+  
+}
+.result-box{
+  width: 100%;
+  
+}
+.result-box p {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #000;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  
+ 
+}
+.result-box .no{
+  width: 10%;
+}
+ .result-box .subject{
+  width: 62%;
+  text-align: left;
+  padding-left: 2rem;
+}
+ .result-box .marks{
+  width: 10%;
+}
+ .result-box .grade{
+  width: 10%;
+} 
+
+
+/* add result  css*/
+.add-result{
+  width: 90%;
+  max-width: 700px;
+  font-size: 1rem;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+.add-student-details label{
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  display: block;
+  text-align: left;
+}
+.add-result h2{
+  width: 100%;
+  text-align: center;
+  margin: 0 0;
+  background: #eee ;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  border-bottom: 3px solid rgba(0,0,0,0.1);
+  letter-spacing: .5px;
+}
+.add-result form {
+  margin: 2rem 3rem;
+}
+.add-student-details input,  .add-student-details select{
+  width: 100%;
+    padding: 7px 10px;
+    margin: 0 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+   
+}
+.add-student-details{
+  margin-bottom: 3rem;
+}
+.add-student-result h2 {
+  margin-bottom: 2rem;
+}
+.subject label{
+  padding: 7px 10px;
+ 
+}
+.subject-no{
+  color: #f1356d;
+  margin-bottom: 1rem;
+} 
+.subject-no input{
+  width: 3rem;
+}
+.add-student-result{
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*input button*/
+.result-input-page button {
+  text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ margin-top: 2rem;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.result-input-page button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+ }
